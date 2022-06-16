@@ -1,16 +1,14 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
-import '../styles/HomePage.scss';
 
 export interface IHomePageProps { }
-
 
 const HomePage: React.FunctionComponent<IHomePageProps> = props => {
     return (
         <div>
             <Container fluid className='home-container'>
-                <Row className='home-row'>
+                <Row id='home-main-img' className='home-row'>
                     <Col lg={12}>
                         <Card className='home-card'>
                             <Card.Body className='home-card-body'>

@@ -8,7 +8,7 @@ const MusicPage: React.FunctionComponent<IMusicPageProps> = props => {
     return <div>
         <h1>MUSIC</h1>
         <Container fluid className='music-container'>
-            <Row className='music-row' id='music-main-img'>
+            <Row className='music-row'>
                 <Col lg={6} md={12} sm={12}>
                     <Card className='music-card' id='music-card1'></Card>
                     <h2 className='music-card-title'>les danses sales</h2>
