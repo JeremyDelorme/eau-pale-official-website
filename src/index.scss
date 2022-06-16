@@ -1,0 +1,32 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Josefin+Slab:wght@200&display=swap');
+
+//GENERAL
+:root {
+  --main-bg-color: rgb(255, 221, 198);
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.font-link {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+h2 {
+
+}
+
+hr {
+}
+
+// MUSIC
