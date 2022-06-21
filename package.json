@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.18.5",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "css-loader-deep-remove": "^2.1.1",

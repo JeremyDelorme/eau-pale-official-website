@@ -48,21 +48,11 @@
   text-align: -webkit-center;
 }
 
-#music-card1 {
-  background-image: url("../public/starter_files/img/dansesSales.png");
-}
-
-#music-card2 {
-  background-image: url("../public/starter_files/img/touteLaPeine.png");
-}
-
 #music-card3 {
-  background-image: url("../public/starter_files/img/beach.png");
   margin-top: 50px;
 }
 
 #music-card4 {
-  background-image: url("../public/starter_files/img/rainbow.jpeg");
   margin-top: 50px;
 }
 /*# sourceMappingURL=MusicPage.css.map */
