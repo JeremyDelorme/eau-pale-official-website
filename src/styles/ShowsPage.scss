@@ -1,0 +1,60 @@
+.shows-container {
+
+}
+
+.shows-img {
+    background-image: url('/public/starter_files/img/shows_picture_edited_2.png');
+    opacity: 100%;
+}
+
+.shows-row {
+    width: 100%;
+    height: 100%;
+}
+
+.shows-card {
+    border-radius: 0%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: -20px;
+    border: none;
+}
+
+.shows-card-text {
+padding-top: 20px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-size: 22px;
+
+}
+
+.shows-buttons {
+    border: none;
+    border-radius: 0%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Josefin Slab', serif;
+    border-radius: 5px;
+}
+
+.shows-buttons:hover {
+    background-color: beige;
+    color: black;
+    opacity: 75%;
+}
+
+.shows-card-title {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 30px;
+    text: center;
+}
+
+.col-lg-4 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    max-height: 100%;
+    opacity: 100%;
+}

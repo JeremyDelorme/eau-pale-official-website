@@ -7,6 +7,7 @@ import ShowsPage from './components/ShowsPage';
 import ShopPage from './components/ShopPage';
 import ContactPage from './components/ContactPage';
 import NavbarComponent from './components/NavbarComponent';
+import ModalFooterComponent from './components/FooterComponent';
 
 export interface IAppProps { }
 
@@ -21,6 +22,7 @@ const App: React.FunctionComponent<IAppProps> = (props) => {
         <Route path='/shop' element={<ShopPage />} />
         <Route path='/contact' element={<ContactPage />} />
       </Routes>
+      <ModalFooterComponent />
     </BrowserRouter>
   );
 };

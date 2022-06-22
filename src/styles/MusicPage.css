@@ -26,6 +26,9 @@
   height: 400px;
   max-width: 400px;
   padding: 100px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 1px;
 }
 
 .music-card-title {
@@ -35,10 +38,15 @@
 }
 
 .music-button {
-  text-align: left;
-  margin-left: 30px;
-  background-color: #c4671b;
-  margin-bottom: 70px;
+  background-color: beige;
+  color: black;
+  margin-bottom: 40px;
+  border-color: black;
+}
+
+.music-button:hover {
+  background-color: #832e28;
+  border-color: #832e28;
 }
 
 .col-lg-6 {
@@ -48,11 +56,21 @@
   text-align: -webkit-center;
 }
 
+#music-card1 {
+  background-image: url("/public/starter_files/img/dansesSales.png");
+}
+
+#music-card2 {
+  background-image: url("/public/starter_files/img/touteLaPeine.png");
+}
+
 #music-card3 {
+  background-image: url("/public/starter_files/img/beach.png");
   margin-top: 50px;
 }
 
 #music-card4 {
+  background-image: url("/public/starter_files/img/rainbow.jpeg");
   margin-top: 50px;
 }
 /*# sourceMappingURL=MusicPage.css.map */
