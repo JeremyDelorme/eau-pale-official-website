@@ -1,63 +1,80 @@
-
+.music-div {
+  background-image: linear-gradient(to bottom, rgb(248, 210, 85), rgb(247, 84, 84));
+}
 
 .music-container {
     display: flex;
     justify-content: center;
+    
   }
   
-  .music-row {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .music-card {
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    max-width: 400px;
-    padding: 100px;
-    border-radius: 10px;
-    border-color: black;
-    border-width: 1px;
-  }
-  
-  .music-card-title {
-    text-align: center;
-    margin-left: 30px;
-    padding-top: 20px;
-  }
-  
-  .music-button {
-    background-color: beige;
-    color: black;
-    margin-bottom: 40px;
-    border-color: black;
-  }
+.music-row {
+  display: flex;
+  justify-content: center;
+}
 
-  .music-button:hover {
-    background-color: rgb(131, 46, 40);
-    border-color: rgb(131, 46, 40)
-  }
+.music-card {
+  height: 500px;
+  max-width: 500px;
+  padding:150px;
+  border-radius: 10px;
+  // border-color: black;
+  // border-width: 1px;
+}
+
+.music-card-title {
+  text-align: center;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.music-button {
+  background-color: beige;
+  color: black;
+  margin-bottom: 40px;
+  border-color: black;
+}
+
+.music-button:hover {
+  background-color: rgb(185, 77, 69);
+  border-color: rgb(131, 46, 40)
+}
+
+.col-lg-6 {
+    flex: 0 0 auto;
+    text-align: -webkit-center;
+}
   
-  .col-lg-6 {
-      flex: 0 0 auto;
-      text-align: -webkit-center;
-  }
-  
-  #music-card1 {
-    background-image: url('/public/starter_files/img/dansesSales.png');
-  }
-  
-  #music-card2 {
-    background-image: url('/public/starter_files/img/touteLaPeine.png');
-  }
-  
-  #music-card3 {
-    background-image: url('/public/starter_files/img/beach.png');
-    margin-top: 50px;
-  }
-  
-  #music-card4 {
-    background-image: url('/public/starter_files/img/rainbow.jpeg');
-    margin-top: 50px;
-  }
+#music-card1 {
+  background-image: url('../assets/img/dansesSales.png');
+  width: 100%;
+  overflow: 'hidden';
+  background-size: contain;
+  border: none;
+}
+
+#music-card2 {
+  background-image: url('../assets/img/touteLaPeine.png');
+  width: 100%;
+  overflow: 'hidden';
+  background-size: contain;
+  border: none;
+}
+
+#music-card3 {
+  background-image: url('../assets/img/beach.png');
+  // margin-top: 50px;
+  width: 100%;
+  overflow: 'hidden';
+  background-size: contain;
+  border: none;
+}
+
+#music-card4 {
+  background-image: url('../assets/img/rainbow.jpeg');
+  // margin-top: 50px;
+  width: 100%;
+  overflow: 'hidden';
+  background-size: contain;
+  border: none;
+}

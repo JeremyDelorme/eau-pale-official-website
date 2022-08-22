@@ -1,3 +1,8 @@
+.music-div {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8d255), to(#f75454));
+  background-image: linear-gradient(to bottom, #f8d255, #f75454);
+}
+
 .music-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,18 +22,10 @@
 }
 
 .music-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 400px;
-  max-width: 400px;
-  padding: 100px;
+  height: 500px;
+  max-width: 500px;
+  padding: 150px;
   border-radius: 10px;
-  border-color: black;
-  border-width: 1px;
 }
 
 .music-card-title {
@@ -45,7 +42,7 @@
 }
 
 .music-button:hover {
-  background-color: #832e28;
+  background-color: #b94d45;
   border-color: #832e28;
 }
 
@@ -57,20 +54,34 @@
 }
 
 #music-card1 {
-  background-image: url("/public/starter_files/img/dansesSales.png");
+  background-image: url("../assets/img/dansesSales.png");
+  width: 100%;
+  overflow: 'hidden';
+  background-size: contain;
+  border: none;
 }
 
 #music-card2 {
-  background-image: url("/public/starter_files/img/touteLaPeine.png");
+  background-image: url("../assets/img/touteLaPeine.png");
+  width: 100%;
+  overflow: 'hidden';
+  background-size: contain;
+  border: none;
 }
 
 #music-card3 {
-  background-image: url("/public/starter_files/img/beach.png");
-  margin-top: 50px;
+  background-image: url("../assets/img/beach.png");
+  width: 100%;
+  overflow: 'hidden';
+  background-size: contain;
+  border: none;
 }
 
 #music-card4 {
-  background-image: url("/public/starter_files/img/rainbow.jpeg");
-  margin-top: 50px;
+  background-image: url("../assets/img/rainbow.jpeg");
+  width: 100%;
+  overflow: 'hidden';
+  background-size: contain;
+  border: none;
 }
 /*# sourceMappingURL=MusicPage.css.map */

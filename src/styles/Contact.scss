@@ -1,22 +1,19 @@
+.contact-div {
+    text-align: center;
+    justify-content: center;
+    }
+
 .contact-container {
     background-color:lightgray;
-}
-
-.contact-row {
-}
-
-.contact-col {
-
-}
-
-.card-group {
+    margin-bottom: 70px;
+    width: 100%;
 }
 
 .contact-card {
-    background-color:lightgray;
+    background-color:rgb(236, 219, 212);
     border-radius: 5px;
     border: none;
-    height: 1000px;
+    height: 700px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -43,11 +40,6 @@
     margin-bottom: 40px;
 }
 
-.contact-div {
-text-align: center;
-justify-content: center;
-font-size: 40px;
-}
 
 .contact-submit-button {
     background-color: beige;

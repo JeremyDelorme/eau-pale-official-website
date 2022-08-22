@@ -1,0 +1,25 @@
+.demo-buttons {
+  width: 100%;
+  background-color: bisque;
+  color: black;
+  border-color: #e7b3cb;
+}
+
+.demo-buttons:hover {
+  background-color: #da3c5e;
+}
+
+.shop-card-col {
+  margin-bottom: 30px;
+}
+
+.store-div {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff6e6e), to(#5f5fff));
+  background-image: linear-gradient(to bottom, #ff6e6e, #5f5fff);
+  margin-bottom: 50px;
+}
+
+.store-container {
+  padding-bottom: 300px;
+}
+/*# sourceMappingURL=StoreItems.css.map */

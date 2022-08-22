@@ -1,10 +1,14 @@
-.shows-container {
+.shows-div {
+    background-image: linear-gradient(to bottom, rgb(123, 243, 159), rgb(129, 212, 245) );
+}
 
+.shows-container {
+    padding-bottom: 100px;
 }
 
 .shows-img {
-    background-image: url('/public/starter_files/img/shows_picture_edited_2.png');
-    opacity: 100%;
+    background-image: url('../assets/img/liveset2.png');
+    width: 100%;
 }
 
 .shows-row {

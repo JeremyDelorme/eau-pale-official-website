@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Demo 5",
+        "price": 5.00,
+        "imgUrl": "/items/demo5.png"
+    },
+    {
+        "id": 2,
+        "name": "Demo 6",
+        "price": 5.00,
+        "imgUrl": "/items/demo6.png"
+    },
+    {
+        "id": 3,
+        "name": "Demo 7",
+        "price": 5.00,
+        "imgUrl": "/items/demo7.png"
+    }
+]

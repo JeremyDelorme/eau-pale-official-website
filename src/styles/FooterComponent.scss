@@ -1,7 +1,32 @@
 .modal-footer {
-    justify-content: space-around;
-    background-color: transparent;
+    justify-content: center;
 }
 
-.modalFooter-col {
+.modalFooter-row {
+    display: flex;
+    justify-content: space-between;
+}
+.modalFooter-card {
+margin-left: 100px;
+margin-right: 100px;
+background-color: transparent;
+border: none;
+}
+
+#footer-insta {
+    background-color: rgb(243, 88, 61);
+    width: 30px;
+    height: 30px;
+}
+
+#footer-facebook {
+    color: rgb(53, 162, 235);
+    width: 30px;
+    height: 30px;
+}
+
+#footer-spotify {
+    color: rgb(14, 177, 14);
+    width: 30px;
+    height: 30px;
 }

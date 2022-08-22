@@ -1,9 +1,25 @@
 .navbar {
   padding-left: 30px;
-  background-color: var(--main-bg-color);
+  background-color: transparent;
 }
 
 .navbar-brand {
   font-size: 70px;
+}
+
+.basket-svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.basket-button {
+  background-color: beige;
+  border: none;
+  margin: 20px;
+  border-radius: 40%;
+}
+
+.basket-button:hover {
+  background-color: grey;
 }
 /*# sourceMappingURL=NavbarComponent.css.map */

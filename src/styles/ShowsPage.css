@@ -1,6 +1,15 @@
+.shows-div {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7bf39f), to(#81d4f5));
+  background-image: linear-gradient(to bottom, #7bf39f, #81d4f5);
+}
+
+.shows-container {
+  padding-bottom: 100px;
+}
+
 .shows-img {
-  background-image: url("/public/starter_files/img/shows_picture_edited_2.png");
-  opacity: 100%;
+  background-image: url("../assets/img/liveset2.png");
+  width: 100%;
 }
 
 .shows-row {

@@ -1,16 +1,29 @@
+.home-div {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f7eb), to(#e2d6cc));
+  background-image: linear-gradient(to bottom, #f6f7eb, #e2d6cc);
+}
+
 .home-container {
   width: 90%;
+  padding-top: 40px;
 }
 
 .home-row {
-  height: 650px;
-  border-radius: 5px;
-  opacity: 0.7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #home-main-img {
-  background-image: url("/public/starter_files/img/beach.png");
-  background-color: lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../assets/img/beach.png");
+  border-radius: 4px;
+  width: 30%;
 }
 
 .home-card-body {
@@ -26,13 +39,17 @@
 }
 
 .home-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: transparent;
   color: white;
   border: none;
-  padding-top: 380px;
+  padding-top: 20px;
   font-size: 45px;
   color: black;
   font-weight: bold;
+  text-align: center;
 }
 
 .home-button {
@@ -41,8 +58,13 @@
   border-color: black;
 }
 
+.home-button:hover {
+  background-color: #b94d45;
+  border-color: #832e28;
+}
+
 .home-follow-card {
-  background-color: lightgray;
+  background-color: blanchedalmond;
   border-radius: 5px;
   border: none;
   margin-top: 100px;
