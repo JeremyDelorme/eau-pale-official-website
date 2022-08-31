@@ -1,8 +1,3 @@
-.music-div {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8d255), to(#f75454));
-  background-image: linear-gradient(to bottom, #f8d255, #f75454);
-}
-
 .music-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,6 +17,16 @@
 }
 
 .music-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 500px;
   max-width: 500px;
   padding: 150px;
@@ -30,19 +35,25 @@
 
 .music-card-title {
   text-align: center;
-  margin-left: 30px;
   padding-top: 20px;
+  font-size: 36px;
 }
 
 .music-button {
-  background-color: beige;
-  color: black;
-  margin-bottom: 40px;
-  border-color: black;
+  background-color: #640000;
+  color: beige;
+  border: none;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .music-button:hover {
-  background-color: #b94d45;
+  background-color: #832e28;
+  border-color: #832e28;
+}
+
+.music-button:focus {
+  background-color: #832e28;
   border-color: #832e28;
 }
 

@@ -1,10 +1,39 @@
 .navbar {
   padding-left: 30px;
-  background-color: transparent;
+  background-color: #640000;
+  color: beige;
+  padding-bottom: -50px;
 }
 
 .navbar-brand {
-  font-size: 70px;
+  font-size: 80px;
+  color: beige;
+}
+
+.navbar-brand:hover {
+  font-size: 80px;
+  color: #777777;
+}
+
+.navbar-brand:focus {
+  font-size: 80px;
+  color: #777777;
+}
+
+.nav-link {
+  color: beige;
+  font-size: 32px;
+  margin-left: 30px;
+}
+
+.nav-link:hover {
+  color: beige;
+  color: #777777;
+}
+
+.nav-link:focus {
+  color: beige;
+  color: #777777;
 }
 
 .basket-svg {
@@ -20,6 +49,10 @@
 }
 
 .basket-button:hover {
+  background-color: grey;
+}
+
+.basket-button:focus {
   background-color: grey;
 }
 /*# sourceMappingURL=NavbarComponent.css.map */

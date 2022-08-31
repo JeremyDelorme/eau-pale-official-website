@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Josefin+Slab:wght@200&display=swap");
+GENERAL
+:root {
+  --dark-red-color: rgb(71, 0, 0);
+}
+
 body {
   font-family: 'Josefin Sans', sans-serif;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff1e4), to(#948e88));
+  background-image: linear-gradient(to bottom, #fff1e4, #948e88);
 }
 
 .font-link {
@@ -12,5 +19,10 @@ h1 {
   font-size: 60px;
   padding-bottom: 20px;
   margin-top: 40px;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 22px;
 }
 /*# sourceMappingURL=index.css.map */

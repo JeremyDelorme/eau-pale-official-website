@@ -1,6 +1,6 @@
 .home-div {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f7eb), to(#e2d6cc));
-  background-image: linear-gradient(to bottom, #f6f7eb, #e2d6cc);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff1e4), to(#948e88));
+  background-image: linear-gradient(to bottom, #fff1e4, #948e88);
 }
 
 .home-container {
@@ -22,8 +22,9 @@
   display: -ms-flexbox;
   display: flex;
   background-image: url("../assets/img/beach.png");
-  border-radius: 4px;
-  width: 30%;
+  border-radius: 10px;
+  width: 25%;
+  margin-top: 50px;
 }
 
 .home-card-body {
@@ -53,17 +54,43 @@
 }
 
 .home-button {
-  background-color: blanchedalmond;
-  color: black;
-  border-color: black;
+  background-color: #640000;
+  color: beige;
+  border: none;
 }
 
 .home-button:hover {
-  background-color: #b94d45;
+  background-color: #832e28;
   border-color: #832e28;
 }
 
+.home-button:focus {
+  background-color: #832e28;
+  border-color: #832e28;
+}
+
+.home-form-div {
+  width: 100%;
+}
+
+.home-formGroup {
+  width: 80%;
+}
+
+.home-form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .home-follow-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
   background-color: blanchedalmond;
   border-radius: 5px;
   border: none;
@@ -84,6 +111,9 @@
 }
 
 .home-follow-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -92,7 +122,7 @@
           justify-content: center;
   text-align: center;
   padding: 40px;
-  width: 50%;
+  width: 100%;
 }
 
 .home-form-label {
@@ -101,6 +131,7 @@
 
 .home-form-control {
   margin-bottom: 40px;
+  width: 100%;
 }
 
 .home-submit-button {
@@ -111,6 +142,11 @@
 }
 
 .home-submit-button:hover {
+  background-color: #832e28;
+  border-color: #832e28;
+}
+
+.home-submit-button:focus {
   background-color: #832e28;
   border-color: #832e28;
 }

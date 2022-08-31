@@ -1,5 +1,5 @@
 .shows-div {
-    background-image: linear-gradient(to bottom, rgb(123, 243, 159), rgb(129, 212, 245) );
+    // background-image: linear-gradient(to bottom, rgb(123, 243, 159), rgb(129, 212, 245) );
 }
 
 .shows-container {
@@ -8,7 +8,7 @@
 
 .shows-img {
     background-image: url('../assets/img/liveset2.png');
-    width: 100%;
+    max-width: 100%px;
 }
 
 .shows-row {
@@ -24,10 +24,10 @@
 }
 
 .shows-card-text {
-padding-top: 20px;
-color: rgb(255, 255, 255);
-font-weight: bold;
-font-size: 22px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
 
 }
 
@@ -43,9 +43,13 @@ font-size: 22px;
 }
 
 .shows-buttons:hover {
-    background-color: beige;
-    color: black;
-    opacity: 75%;
+    background-color: rgb(131, 46, 40);
+    border-color: rgb(131, 46, 40)
+}
+
+.shows-buttons:focus {
+    background-color: rgb(131, 46, 40);
+    border-color: rgb(131, 46, 40)
 }
 
 .shows-card-title {

@@ -1,10 +1,14 @@
 .modal-footer {
-    justify-content: center;
+justify-content: center;
+background-color: rgb(100, 0, 0);
+padding-top: 30px;
+color: beige;
 }
 
 .modalFooter-row {
     display: flex;
-    justify-content: space-between;
+flex-wrap: wrap;
+    font-size: 30px;
 }
 .modalFooter-card {
 margin-left: 100px;
@@ -13,20 +17,59 @@ background-color: transparent;
 border: none;
 }
 
-#footer-insta {
-    background-color: rgb(243, 88, 61);
-    width: 30px;
-    height: 30px;
-}
+// .insta-link {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+//     border-radius: 40px;
+//     color: #fff;
+//     vertical-align: middle;
+//     background: #d6249f;
+//     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+//     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+//     width: 40px;
+//     height: 40px;
+// }
 
-#footer-facebook {
-    color: rgb(53, 162, 235);
-    width: 30px;
-    height: 30px;
-}
+// .insta-link:hover {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+//     border-radius: 40px;
+//     color: #fff;
+//     vertical-align: middle;
+//     background: #d6249f;
+//     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+//     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+//     width: 40px;
+//     height: 40px;
+// }
 
-#footer-spotify {
-    color: rgb(14, 177, 14);
-    width: 30px;
-    height: 30px;
-}
+// .facebook-link {
+//     color: #3b5998;
+//     border-radius: 5px;
+//     position: relative;
+//     overflow: hidden;
+//     border: 15px solid #3b5998;
+//     border-bottom: 0;
+// }
+
+// .facebook-link:hover {
+//     color: rgb(53, 162, 235);
+//     width: 30px;
+//     height: 30px;
+// }
+
+// .spotify-link {
+//     color: #1DB954;
+//     width: 50px;
+//     height: 50px;
+// }
+
+// .spotify-link:hover {
+//     color: rgb(14, 177, 14);
+//     width: 50px;
+//     height: 50px;
+// }

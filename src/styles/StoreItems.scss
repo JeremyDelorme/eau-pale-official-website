@@ -1,23 +1,69 @@
-.demo-buttons {
-    width: 100%;
-    background-color: bisque;
-    color: black;
-    border-color: rgb(231, 179, 203);
+.store-div {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.demo-buttons:hover {
-    background-color: rgb(218, 60, 94);
+.add-to-cart-button {
+    background-color: rgb(100, 0, 0);
+    color: beige;
+    border: none;
+}
+
+.add-to-cart-button:hover {
+    background-color: rgb(131, 46, 40);
+    border-color: rgb(131, 46, 40)
+}
+
+.add-to-cart-button:focus {
+    background-color: rgb(131, 46, 40);
+    border-color: rgb(131, 46, 40)
+}
+
+.store-buttons {
+    background-color: rgb(100, 0, 0);
+    color: beige;
+    border: none;
+}
+
+.store-buttons:hover {
+    background-color: rgb(131, 46, 40);
+    border-color: rgb(131, 46, 40)
+}
+
+.store-buttons:focus {
+    background-color: rgb(131, 46, 40);
+    border-color: rgb(131, 46, 40)
+}
+
+.store-remove-button {
+    background-color: rgb(243, 131, 131);
+    color: beige;
+    border: none;
+}
+
+.store-remove-button:hover {
+    background-color: rgb(131, 46, 40);
+    border-color: rgb(131, 46, 40)
+}
+
+.store-remove-button:focus {
+    background-color: rgb(131, 46, 40);
+    border-color: rgb(131, 46, 40)
 }
 
 .shop-card-col {
     margin-bottom: 30px;
-}
-
-.store-div {
-    background-image: linear-gradient(to bottom, rgb(255, 110, 110), rgb(95, 95, 255));
-    margin-bottom: 50px;
+    
 }
 
 .store-container {
     padding-bottom: 300px;
+
+}
+
+.store-card-body {
+    background-color: rgb(233, 233, 233);
+    justify-content: center;
+    text-align: center;
 }

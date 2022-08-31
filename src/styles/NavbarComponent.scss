@@ -1,10 +1,39 @@
 .navbar {
     padding-left: 30px;
-    background-color: transparent;
+    background-color: rgb(100, 0, 0);
+    color: beige;
+    padding-bottom: -50px;
   }
   
   .navbar-brand {
-    font-size: 70px;
+    font-size: 80px;
+    color: beige;
+  }
+
+  .navbar-brand:hover {
+    font-size: 80px;
+    color: rgb(119, 119, 119);
+  }
+
+  .navbar-brand:focus {
+    font-size: 80px;
+    color: rgb(119, 119, 119);
+  }
+
+  .nav-link {
+    color: beige;
+    font-size: 32px;
+    margin-left: 30px;
+  }
+
+  .nav-link:hover {
+    color: beige;
+    color: rgb(119, 119, 119);
+  }
+
+  .nav-link:focus {
+    color: beige;
+    color: rgb(119, 119, 119);
   }
 
   .basket-svg {
@@ -20,5 +49,9 @@
   }
 
   .basket-button:hover {
+    background-color: grey;
+  }
+
+  .basket-button:focus {
     background-color: grey;
   }

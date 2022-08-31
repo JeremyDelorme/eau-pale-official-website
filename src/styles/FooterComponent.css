@@ -2,15 +2,18 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #640000;
+  padding-top: 30px;
+  color: beige;
 }
 
 .modalFooter-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 30px;
 }
 
 .modalFooter-card {
@@ -18,23 +21,5 @@
   margin-right: 100px;
   background-color: transparent;
   border: none;
-}
-
-#footer-insta {
-  background-color: #f3583d;
-  width: 30px;
-  height: 30px;
-}
-
-#footer-facebook {
-  color: #35a2eb;
-  width: 30px;
-  height: 30px;
-}
-
-#footer-spotify {
-  color: #0eb10e;
-  width: 30px;
-  height: 30px;
 }
 /*# sourceMappingURL=FooterComponent.css.map */

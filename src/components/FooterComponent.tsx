@@ -17,21 +17,21 @@ const ModalFooterComponent: FC = () => {
                 </Col>
                 <Col className='modalFooter-col'>
                     <Card className='modalFooter-card'>
-                        <Link to={'https://www.instagram.com/eau_pale_music/'} >
+                        <Link className='insta-link' to={'https://www.instagram.com/eau_pale_music/'} >
                             <FaInstagram />
                         </Link>
                     </Card>
                 </Col>
                 <Col className='modalFooter-col'>
                     <Card className='modalFooter-card'>
-                        <Link to={'https://www.facebook.com/eaupalemusicrainbow'} >
+                        <Link className='facebook-link' to={'https://www.facebook.com/eaupalemusicrainbow'} >
                             <FaFacebook />
                         </Link>
                     </Card>
                 </Col>
                 <Col className='modalFooter-col'>
                     <Card className='modalFooter-card'>
-                        <Link to={'https://open.spotify.com/artist/5kGvcS4JETjLY0oGijSEr9?si=huN_cr8lR0O9lGa8bHgjsg'} >
+                        <Link className='spotify-link' to={'https://open.spotify.com/artist/5kGvcS4JETjLY0oGijSEr9?si=huN_cr8lR0O9lGa8bHgjsg'} >
                             <FaSpotify />
                         </Link>
                     </Card>
