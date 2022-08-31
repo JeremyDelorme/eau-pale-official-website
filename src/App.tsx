@@ -17,7 +17,7 @@ const App: FC = () => {
     <ShoppingCartProvider>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<HomePage />} />
+          <Route path='/eau-pale-official-website' element={<HomePage />} />
           <Route path='/music' element={<MusicPage />} />
           <Route path='/shows' element={<ShowsPage />} />
           <Route path='/shop' element={<ShopPage />} />
