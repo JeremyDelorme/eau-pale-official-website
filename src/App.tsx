@@ -18,10 +18,10 @@ const App: FC = () => {
       <BrowserRouter>
         <Routes>
           <Route path='/eau-pale-official-website' element={<HomePage />} />
-          <Route path='/music' element={<MusicPage />} />
-          <Route path='/shows' element={<ShowsPage />} />
-          <Route path='/shop' element={<ShopPage />} />
-          <Route path='/contact' element={<ContactPage />} />
+          <Route path='eau-pale-official-website/music' element={<MusicPage />} />
+          <Route path='eau-pale-official-website/shows' element={<ShowsPage />} />
+          <Route path='eau-pale-official-website/shop' element={<ShopPage />} />
+          <Route path='eau-pale-official-website/contact' element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
     </ShoppingCartProvider>
