@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Card, CardGroup, Form, Button } from 'react-bootstrap';
+
+import '../styles/Contact.css';
 
 import ModalFooterComponent from '../components/FooterComponent';
 import NavbarComponent from '../components/NavbarComponent';
 
-import '../styles/Contact.css';
 
-export interface IContactPageProps { }
-
-const ContactPage: React.FunctionComponent<IContactPageProps> = props => {
+const ContactPage: FC = () => {
     return (
         <div className='contact-div' >
             <NavbarComponent />

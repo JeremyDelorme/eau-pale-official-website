@@ -1,25 +1,44 @@
 .modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #640000;
-  padding-top: 30px;
+  padding-top: 20px;
   color: beige;
 }
 
 .modalFooter-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .modalFooter-card {
-  margin-left: 100px;
-  margin-right: 100px;
   background-color: transparent;
   border: none;
+}
+
+.insta-link {
+  border-radius: 40px;
+  color: #f14040;
+  vertical-align: middle;
+  width: auto;
+}
+
+.insta-link:hover {
+  color: #f38b8b;
+}
+
+.spotify-link {
+  color: #1DB954;
+  width: 50px;
+  height: 50px;
+}
+
+.spotify-link:hover {
+  color: #0eb10e;
+  width: 50px;
+  height: 50px;
 }
 /*# sourceMappingURL=FooterComponent.css.map */

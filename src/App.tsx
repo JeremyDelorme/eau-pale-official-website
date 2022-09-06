@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import MusicPage from './pages/MusicPage';
 import ShowsPage from './pages/ShowsPage';
-import ShopPage from './pages/StorePage';
+import StorePage from './pages/StorePage';
 import ContactPage from './pages/ContactPage';
 
 // Components Imports
@@ -18,14 +18,13 @@ const App: FC = () => {
       <BrowserRouter>
         <Routes>
           <Route path='/eau-pale-official-website' element={<HomePage />} />
-          <Route path='eau-pale-official-website/music' element={<MusicPage />} />
-          <Route path='eau-pale-official-website/shows' element={<ShowsPage />} />
-          <Route path='eau-pale-official-website/shop' element={<ShopPage />} />
-          <Route path='eau-pale-official-website/contact' element={<ContactPage />} />
+          <Route path='/eau-pale-official-website/music' element={<MusicPage />} />
+          <Route path='/eau-pale-official-website/shows' element={<ShowsPage />} />
+          <Route path='/eau-pale-official-website/shop' element={<StorePage />} />
+          <Route path='/eau-pale-official-website/contact' element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
     </ShoppingCartProvider>
-
   );
 };
 

@@ -8,14 +8,14 @@ const NavbarComponent: FC = () => {
     const { openCart, cartQuantity } = useShoppingCart();
     return (
         <Navbar collapseOnSelect expand="lg" >
-            <Navbar.Brand href="/" >eau pâle</Navbar.Brand>
+            <Navbar.Brand href="/eau-pale-official-website" >eau pâle</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto" >
-                    <Nav.Link href='/music'>Music</Nav.Link>
-                    <Nav.Link href="/shows">Shows</Nav.Link>
-                    <Nav.Link href="/shop">Shop</Nav.Link>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
+                    <Nav.Link href='/eau-pale-official-website/music'>Music</Nav.Link>
+                    <Nav.Link href="/eau-pale-official-website/shows">Shows</Nav.Link>
+                    <Nav.Link href="/eau-pale-official-website/shop">Shop</Nav.Link>
+                    <Nav.Link href="/eau-pale-official-website/contact">Contact</Nav.Link>
                 </Nav>
                 {cartQuantity > 0 && (
                     <Button
