@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eau-pale-official-website/static/css/main.3db46d02.css",
-    "main.js": "/eau-pale-official-website/static/js/main.d8dee957.js",
+    "main.js": "/eau-pale-official-website/static/js/main.cf1fbd6e.js",
     "static/js/787.6f4cad77.chunk.js": "/eau-pale-official-website/static/js/787.6f4cad77.chunk.js",
     "static/media/liveset2.png": "/eau-pale-official-website/static/media/liveset2.4f08333c31551982fd5a.png",
     "static/media/touteLaPeine.png": "/eau-pale-official-website/static/media/touteLaPeine.5af259146bb19463cd5c.png",
@@ -9,11 +9,11 @@
     "static/media/beach.png": "/eau-pale-official-website/static/media/beach.6047c0c8f4dc7a58785e.png",
     "index.html": "/eau-pale-official-website/index.html",
     "main.3db46d02.css.map": "/eau-pale-official-website/static/css/main.3db46d02.css.map",
-    "main.d8dee957.js.map": "/eau-pale-official-website/static/js/main.d8dee957.js.map",
+    "main.cf1fbd6e.js.map": "/eau-pale-official-website/static/js/main.cf1fbd6e.js.map",
     "787.6f4cad77.chunk.js.map": "/eau-pale-official-website/static/js/787.6f4cad77.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3db46d02.css",
-    "static/js/main.d8dee957.js"
+    "static/js/main.cf1fbd6e.js"
   ]
 }
