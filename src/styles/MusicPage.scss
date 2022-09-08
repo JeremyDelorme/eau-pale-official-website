@@ -32,7 +32,7 @@
   font-size: 36px;
 }
 
-.music-button {
+.music-button.btn.btn-primary {
   background-color: rgb(100, 0, 0);
   color: beige;
   border: none;
@@ -40,12 +40,12 @@
   margin-top: 30px;
 }
 
-.music-button:hover {
+.music-button.btn.btn-primary:hover {
   background-color: rgb(131, 46, 40);
   border-color: rgb(131, 46, 40)
 }
 
-.music-button:focus {
+.music-button.btn.btn-primary:focus {
   background-color: rgb(131, 46, 40);
   border-color: rgb(131, 46, 40)
 }
@@ -57,7 +57,8 @@
   
 #music-card1 {
   background-image: url('../assets/img/dansesSales.png');
-  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
   overflow: 'hidden';
   background-size: contain;
   border: none;
@@ -65,7 +66,8 @@
 
 #music-card2 {
   background-image: url('../assets/img/touteLaPeine.png');
-  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
   overflow: 'hidden';
   background-size: contain;
   border: none;
@@ -73,8 +75,8 @@
 
 #music-card3 {
   background-image: url('../assets/img/beach.png');
-  // margin-top: 50px;
-  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
   overflow: 'hidden';
   background-size: contain;
   border: none;
@@ -82,8 +84,8 @@
 
 #music-card4 {
   background-image: url('../assets/img/rainbow.jpeg');
-  // margin-top: 50px;
-  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
   overflow: 'hidden';
   background-size: contain;
   border: none;

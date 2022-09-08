@@ -48,19 +48,19 @@
   margin-bottom: 40px;
 }
 
-.contact-submit-button {
+.contact-submit-button.btn.btn-primary {
   background-color: #640000;
   color: beige;
   border: none;
   margin: 30px;
 }
 
-.contact-submit-button:hover {
+.contact-submit-button.btn.btn-primary:hover {
   background-color: #832e28;
   border-color: #832e28;
 }
 
-.contact-submit-button:focus {
+.contact-submit-button.btn.btn-primary:focus {
   background-color: #832e28;
   border-color: #832e28;
   border: none;
@@ -68,5 +68,9 @@
 
 .contact-email {
   color: black;
+}
+
+.contact-email:hover {
+  color: beige;
 }
 /*# sourceMappingURL=Contact.css.map */

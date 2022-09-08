@@ -26,7 +26,7 @@ const HomePage: FC = () => {
                                         BEACH
                                     </p>
                                 </Card.Text>
-                                <Button href="#" className='home-button btn-lg'>Listen now</Button>
+                                <Button href="https://open.spotify.com/album/6UrhV3YYGNN3Kkmm258DoP?si=FTzi_02BT7Ou2Tb36Adotg" className='home-button'>Listen now</Button>
                             </Card.Body>
                         </Card>
                         <Row className='home-form-row' >

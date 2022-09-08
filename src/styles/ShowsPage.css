@@ -26,7 +26,7 @@
   font-size: 22px;
 }
 
-.shows-buttons {
+.shows-buttons.btn.btn-primary {
   border: none;
   border-radius: 0%;
   background-color: rgba(255, 255, 255, 0);
@@ -37,7 +37,7 @@
   border-radius: 5px;
 }
 
-.shows-buttons:hover {
+.shows-buttons.btn.btn-primary:hover {
   background-color: #832e28;
   border-color: #832e28;
 }

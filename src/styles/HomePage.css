@@ -69,6 +69,17 @@
   border-color: #832e28;
 }
 
+.home-button.btn.btn-primary {
+  background-color: #640000;
+  color: beige;
+  border: none;
+}
+
+.home-button.btn.btn-primary:hover {
+  background-color: #832e28;
+  border-color: #832e28;
+}
+
 .home-form-div {
   width: 100%;
 }

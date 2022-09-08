@@ -53,12 +53,23 @@
 
   .home-button:hover {
     background-color: rgb(131, 46, 40);
-    border-color: rgb(131, 46, 40)
+    border-color: rgb(131, 46, 40);
   }
 
   .home-button:focus {
     background-color: rgb(131, 46, 40);
     border-color: rgb(131, 46, 40)
+  }
+
+  .home-button.btn.btn-primary {
+    background-color: rgb(100, 0, 0);
+    color: beige;
+    border: none;
+  }
+
+  .home-button.btn.btn-primary:hover {
+    background-color: rgb(131, 46, 40);
+    border-color: rgb(131, 46, 40);
   }
 
 

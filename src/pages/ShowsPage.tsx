@@ -28,11 +28,11 @@ const ShowsPage: FC = () => {
                             <Card className='shows-card' >
                                 <Card.Body className='shows-card-body'>
                                     <Card.Title className='shows-card-title'>
-                                        CASA DEL POPOLO
+                                        Bar l'Escogriffe
                                     </Card.Title>
                                     <Card.Text className='shows-card-text'>
                                         <p>
-                                            23 juillet 2022
+                                            22 septembre 2022
                                         </p>
                                     </Card.Text>
                                 </Card.Body>
@@ -53,7 +53,7 @@ const ShowsPage: FC = () => {
                             opacity: '100%'
                         }}
                     />
-                    <Row className='shows-row'>
+                    {/* <Row className='shows-row'>
                         <Col lg={8}>
                             <Card className='shows-card' >
                                 <Card.Body className='shows-card-body'>
@@ -193,7 +193,7 @@ const ShowsPage: FC = () => {
                                 Buy Tickets
                             </Button>
                         </Col>
-                    </Row>
+                    </Row> */}
                 </div>
             </Container >
             <ModalFooterComponent />

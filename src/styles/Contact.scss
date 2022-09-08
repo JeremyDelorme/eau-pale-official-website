@@ -43,19 +43,19 @@
 }
 
 
-.contact-submit-button {
+.contact-submit-button.btn.btn-primary {
     background-color: rgb(100, 0, 0);
     color: beige;
     border: none;
     margin: 30px;
 }
 
-.contact-submit-button:hover {
+.contact-submit-button.btn.btn-primary:hover {
     background-color: rgb(131, 46, 40);
     border-color: rgb(131, 46, 40)
 }
 
-.contact-submit-button:focus {
+.contact-submit-button.btn.btn-primary:focus {
     background-color: rgb(131, 46, 40);
     border-color: rgb(131, 46, 40);
     border: none
@@ -64,3 +64,7 @@
 .contact-email {
 color: black;
 }
+
+.contact-email:hover {
+    color: beige;
+    }
