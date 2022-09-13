@@ -1,6 +1,7 @@
 {
   "name": "eau-pale-official-website",
   "homepage": "http://JeremyDelorme.github.io/eau-pale-official-website/",
+  "main": "src/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "@types/react-dom": "^18.0.5",
     "bootstrap": "^5.1.3",
     "node": "^17.7.2",
+    "parcel": "^2.0.0-rc.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
