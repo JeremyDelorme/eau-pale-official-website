@@ -1,7 +1,7 @@
 {
   "name": "eau-pale-official-website",
   "homepage": "http://JeremyDelorme.github.io/eau-pale-official-website/",
-  "main": "src/index.html",
+  "main": "public/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
