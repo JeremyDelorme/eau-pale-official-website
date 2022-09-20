@@ -1,7 +1,7 @@
 {
   "name": "eau-pale-official-website",
   "homepage": "https://eau-pale-official-website.herokuapp.com/",
-  "main": "src/index.tsx",
+  "main": "public/index.html",
   "version": "0.1.0",
   "private": true,
   "engines": {
