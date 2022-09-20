@@ -1,6 +1,5 @@
 {
   "name": "eau-pale-official-website",
-  "homepage": "https://eau-pale-official-website.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -28,9 +27,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "node server/server.ts",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
